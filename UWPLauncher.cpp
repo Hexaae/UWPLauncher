@@ -3,7 +3,7 @@
 
 int main(int argc, char* argv[]) {
     if (argc < 2) {
-        MessageBoxA(NULL, "Usage: launchUWP.exe <PackageFamilyName>", "Error", MB_OK | MB_ICONERROR);
+        MessageBoxA(NULL, "Usage: launchUWP.exe <FullPackageFamilyName>", "Error", MB_OK | MB_ICONERROR);
         return 1;
     }
 
