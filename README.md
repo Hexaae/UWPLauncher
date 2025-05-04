@@ -5,6 +5,7 @@ This simple command tool let you launch PC Game Pass (UWP) games from Steam/GOG,
 ## EXAMPLE
 
 You want to add Oblivion Remastered for PC Game Pass (XBox app) to your Steam or GOG library...
+
 Open a PowerShell prompt, and enter:
 
     Get-AppxPackage | Where-Object {$_.Name -match "bethesda"} | ForEach-Object { $appId = Select-String -Path "$($_.InstallLocation)\AppxManifest.xml" -Pattern '<Application Id="([^"]+)"' | ForEach-Object { $_.Matches.Groups[1].Value }; "$($_.PackageFamilyName)!$appId" }
