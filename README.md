@@ -1,8 +1,8 @@
-**WHAT'S THIS FOR?**
+## WHAT'S THIS FOR?
 
 This simple command tool let you launch PC Game Pass (UWP) games from Steam/GOG, just specifying the PackageFamilyName as argument.
 
-**EXAMPLE**
+## EXAMPLE
 
 You want to add Oblivion Remastered for PC Game Pass (XBox app) to your Steam or GOG library...
 Open a PowerShell prompt, and enter:
