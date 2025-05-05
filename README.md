@@ -34,3 +34,21 @@ Additionally (v1.1) you can now specify also the actual task name launched by th
     UWPLauncher.exe BethesdaSoftworks.ProjectAltar_3275kfvn8vcwc!AppUEGameShipping "OblivionRemastered-WinGDK-Shipping.exe"
 
 This is useful to make Steam show Online you're still playing 'till you actually quit the game, as for any other Steam library game: if 2nd argument is present, the launcher won't exit immediately and wait for the specified task to quit.
+
+![image](https://github.com/user-attachments/assets/ca88773a-4cea-4f4b-bce2-dbef6ebe446b)
+
+Remember to wrap the task name with "" if the game.exe contains spaces, e.g.:
+
+    Microsoft.TheBardsTaleARPGRR_8wekyb3d8bbwe!Game "The Bard's Tale.exe"
+
+Enjoy!
+
+ 
+
+
+[![image](https://github.com/user-attachments/assets/405b06a2-b225-4644-bd5c-2791a321f6e3)](https://paypal.me/lucalongone)
+
+
+ 
+
+
