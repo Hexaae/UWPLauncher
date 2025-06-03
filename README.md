@@ -2,6 +2,10 @@
 
 This simple command tool let you launch PC Game Pass (UWP) games from Steam/GOG, just specifying the EXACT full PackageFamilyName as argument. It will not open any temporary window to launch the app. You can now (v1.1) optionally specify also the real taskname launched by the UWP game as a 2nd argument, and wait 'till it actually quits. 
 
+FAQ
+Q: can I use additional laucnher paramters to launch f.e. "game.exe -myargument"?
+A: unfortunately due to Microsoft current limitation you can't pass arguments to UWP apps
+
 ## ARGUMENTS
 UWPLauncher.exe \<FullPackageFamilyName\> [processname]
 
@@ -33,7 +37,7 @@ Additionally (v1.1) you can now specify also the actual task name launched by th
 
     UWPLauncher.exe BethesdaSoftworks.ProjectAltar_3275kfvn8vcwc!AppUEGameShipping "OblivionRemastered-WinGDK-Shipping.exe"
 
-This is useful to make Steam show Online you're still playing 'till you actually quit the game, as for any other Steam library game: if 2nd argument is present, the launcher won't exit immediately and wait for the specified task to quit.
+This is useful to make Steam show your status is "still playing" 'till you actually quit the game, as for any other Steam library game: if 2nd argument is present, the launcher won't exit immediately and wait for the specified task to quit.
 
 ![image](https://github.com/user-attachments/assets/ca88773a-4cea-4f4b-bce2-dbef6ebe446b)
 
