@@ -6,7 +6,7 @@ This simple command tool let you launch PC Game Pass (UWP) games from Steam/GOG,
 
 
 FAQ\
-Q: can I use additional laucnher paramters to launch f.e. "game.exe -myargument"?\
+Q: can I use additional launcher paramters to launch f.e. "game.exe -myargument"?\
 A: unfortunately due to Microsoft current limitations you can't pass arguments to UWP apps
 
 ## ARGUMENTS
