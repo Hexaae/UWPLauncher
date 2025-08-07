@@ -10,7 +10,7 @@ Q: can I use additional launcher parameters to launch f.e. "game.exe -fullscreen
 A: unfortunately due to Microsoft current limitations you can't pass arguments to UWP apps
 
 ## ARGUMENTS
-UWPLauncher.exe \<FullPackageFamilyName\> [processname]
+UWPLauncher.exe \<FullPackageFamilyName\> [processname] [optional parameters...]
 
 ## EXAMPLE
 
