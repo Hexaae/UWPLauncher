@@ -1,6 +1,6 @@
 ## WHAT'S THIS FOR?
 
-This simple command tool lets you launch PC Game Pass (UWP) games from Steam/GOG, just specifying the EXACT full PackageFamilyName as argument. It will not open any temporary window to launch the app. You can now (v1.1) optionally specify also the real taskname launched by the UWP game as a 2nd argument, and wait 'till it actually quits. 
+This simple command tool allows you to launch PC Game Pass (UWP) games from Steam/GOG, just specifying the EXACT full PackageFamilyName as argument. It will not open any temporary window to launch the app. You can now (v1.1) optionally specify also the real taskname launched by the UWP game as a 2nd argument, and wait 'till it actually quits. 
 
 
 
