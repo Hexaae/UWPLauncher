@@ -6,7 +6,7 @@ This simple command tool allows you to launch PC Game Pass (UWP) games from Stea
 
 
 FAQ\
-Q: can I use additional launcher parameters to launch f.e. "game.exe -fullscreen"?\
+Q: can I use additional parameters to launch f.e. "game.exe -fullscreen"?\
 A: unfortunately due to Microsoft current limitations you can't pass arguments to UWP apps (will be ignored).\
 \
 Q: what's so special about this launcher?\
