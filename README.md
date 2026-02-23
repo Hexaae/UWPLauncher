@@ -7,7 +7,10 @@ This simple command tool allows you to launch PC Game Pass (UWP) games from Stea
 
 FAQ\
 Q: can I use additional launcher parameters to launch f.e. "game.exe -fullscreen"?\
-A: unfortunately due to Microsoft current limitations you can't pass arguments to UWP apps (will be ignored)
+A: unfortunately due to Microsoft current limitations you can't pass arguments to UWP apps (will be ignored).\
+\
+Q: what's so special about this launcher?\
+A: will let you launch XBox/Microsoft Store games from Steam or any other launcher flawlessly, and also allows player to be seen online while playing 'till you quit the game (just like any other original Steam game launched from Steam client) and won't detach itselft after launch like all other solutions.
 
 ## ARGUMENTS
 UWPLauncher.exe \<FullPackageFamilyName\> [processname] [optional parameters...]
